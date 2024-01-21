@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct CategoryRequestDTO: Codable{
+public struct CategoryRequestDTO: Codable{
     public var title: String
     public var colorHex: String
     public var userId: UUID
