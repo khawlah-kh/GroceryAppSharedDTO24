@@ -6,7 +6,7 @@
 //
 
 import Foundation
-public struct ItemRequestResponse: Codable{
+public struct ItemResponseDTO: Codable{
     public let id: UUID
     public let title: String
     public let price: Double
