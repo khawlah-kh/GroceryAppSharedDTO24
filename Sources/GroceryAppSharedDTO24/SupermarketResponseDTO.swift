@@ -8,7 +8,7 @@
 import Foundation
 
 
-public struct Supermarket: Codable{
+public struct SupermarketResponseDTO: Codable{
     public var id: UUID
     public var name: String
     
